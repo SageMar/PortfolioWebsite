@@ -18,6 +18,14 @@
             <form id = "contact" method = "GET" action = "contact.php">
                 <label for="name">Name*</label><br>
                 <input type="text" id="name" name="name"><br>
+                <h6>Reason for Contact:</h6>
+                <input type="radio" id="question" value = "question" name="reason[]">
+                <label for="question">Question</label>
+                <input type="radio" id="job" value = "job" name="reason[]">
+                <label for="job">Job</label>
+                <input type="radio" id="Curious" value = "curious" name="reason[]">
+                <label for="question">Question</label>
+                <br>
                 <label for="email">Email*</label><br>
                 <input type="text" id="email" name="email"><br>
                 <label for="message">Message*</label><br>
